@@ -13,7 +13,7 @@ jobs:
     - uses: actions/setup-node@v6
       with:
         node-version: 22
-    - run: npm CI
+    - run: npm ci
     - name: "Hola mundo"
       run: echo "Hola mundo"
     - name: "Mostrar fecha"
